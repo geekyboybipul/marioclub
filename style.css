@@ -1,0 +1,85 @@
+.banner{
+  position: relative;
+
+}
+.banner img{
+  max-width: 100%;
+}
+
+.banner .welcome{
+  position: absolute;
+  top: 30%;
+  left: 0;
+  background: #FEB614;
+  color: white;
+  padding: 30px;
+}
+.banner h2{
+  font-size: 30px;
+}
+.banner h2 span{
+  font-size: 1.4em;
+}
+header{
+  background-color: #F63232;
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+  padding: 20px;
+  width: 100%;
+  top:0;
+  left: 0;
+}
+header h1{
+  border: 6px solid white;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 6px 8px;
+  border-radius: 36px;
+}
+nav{
+  position: sticky;
+  top:101px;
+  background-color: #F4F4F4;
+}
+nav ul{
+  max-width: 1200px;
+  white-space: nowrap;
+  margin: 0 auto;
+}
+nav li{
+  display: inline-block;
+  width: 35%;
+  font-size: 24px;
+}
+nav li a{
+  text-decoration: none;
+  color: red;
+}
+body{
+  font-family: arial;
+  scroll-behavior: smooth;
+}
+body ,li,ul,h1,h2,p{
+  margin: 0;
+  padding: 0;
+}
+ul li:hover{
+  top:-4px;
+}
+nav ul li:hover{
+  text-decoration:underline;
+  background-color: white;
+}
+footer{
+  border-color: RED;
+  text-align: center;
+  border: 2px solid red;
+  z-index: 1;
+  background-color: red;
+  padding: 20px;
+}
+footer p{
+  color: black;
+  font-size: 20px;
+}
